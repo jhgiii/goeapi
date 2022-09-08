@@ -736,7 +736,7 @@ type VRF struct {
 	RouterID string                        `json:"routerId"`
 	Peers    map[string]BGPNeighborSummary `json:"peers"`
 	VRF      string                        `json:"vrf"`
-	ASN      int64                         `json:"asn"`
+	ASN      string                          `json:"asn"`
 }
 
 type BGPNeighborSummary struct {
