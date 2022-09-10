@@ -1,7 +1,7 @@
 package module
 
 import (
-	"github.com/aristanetworks/goeapi"
+	//"github.com/aristanetworks/goeapi"
 )
 
 type ShowBGPEVPNSummary struct {
